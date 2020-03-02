@@ -136,7 +136,13 @@ footer {
 .posts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 80vh 80vh 80vh 100vh 200px;
+  grid-template-rows: 80vh 80vh 80vh 80vh 30px;
+}
+
+.posts a {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .posts article,
@@ -146,10 +152,11 @@ footer {
 }
 
 .hero {
-  background-color: red;
+  background-color: #DCDCDC;
   grid-column: 1 / 4;
-  border: none;
 }
+
+
 
 .book-ad {
   display: grid;
