@@ -83,7 +83,7 @@ footer {
 .book-ad {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200vh 30vh 30vh 30vh 30vh 200px;
+  grid-template-rows: 200vh 40vh 30vh 30vh 30vh 200px;
 }
 
 .book-ad header {
@@ -100,4 +100,23 @@ footer {
 
 .book-ad footer {
   grid-column: 1 / 3;
+}
+
+.featured-ad {
+  display: flex;
+  background: red;
+  width: 100%;
+  height: 300px;
+}
+
+.curated {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 40vh 80vh 200px;
+}
+
+.curated div {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  background: red;
 }
