@@ -230,6 +230,30 @@ footer {
 
 .book-ad article {
   width: 100%;
+  display: flex;
+}
+
+.comment-photo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.comment-photo div {
+  height: 50%;
+}
+
+.avatar {
+  background-color: #778899 !important;
+  margin-left: 40%;
+  margin-top: 20%;
+  margin-right: 25%;
+  margin-bottom: 40%;
+}
+.comment-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
 }
 
 .book-ad footer {
