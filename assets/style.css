@@ -29,12 +29,28 @@ footer {
   background-color: #808080;
   width: 15%;
   margin: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .menu {
   background-color: #808080;
   width: 85%;
   margin: 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.menu button {
+  background: transparent;
+  border: 1px solid white;
+  width: 10%;
+  height: 2rem;
+  color: white;
 }
 
 .articles {
