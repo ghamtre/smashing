@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -58,4 +59,23 @@ footer {
 
 .articles article:nth-child(4) {
   background-color: blue;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 80vh 80vh 80vh 100vh 300px;
+}
+
+.posts article,
+.posts div 
+{
+  border: 1px solid gray;
+  width: 100%;
+}
+
+.hero {
+  background-color: red;
+  grid-column: span 4;
+  border: 0;
 }
