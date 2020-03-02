@@ -161,15 +161,71 @@ footer {
 .book-ad {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200vh 40vh 30vh 30vh 30vh 200px;
+  grid-template-rows: 50vh 40vh 30vh 30vh 30vh 200px;
 }
 
 .book-ad header {
   grid-column: 1 / 3;
+  background-color: #A9A9A9;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.book-ad header > h3 {
+  margin-bottom: 2rem;
+}
+
+.book-ad header > p {
+  width: 50%;
+}
+
+.book-ad header > button {
+  border: 1px solid gray;
+  width: 20%;
+  height: 2rem;
+  color: darkslategray;
+  border-radius: 4px;
+  margin-top: 1rem;
 }
 
 .book-ad .week-person {
   grid-column: 1 / 3;
+}
+
+.week-person{
+  display: flex;
+  background-color: #DCDCDC;
+  align-items: center;
+}
+
+.week-person-photo {
+  background-color: #778899 !important;
+  height: 8rem;
+  width: 50%;
+  margin-left: 3%;
+}
+
+.week-person-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+
+.week-person-content h3 {
+  margin-bottom: 3%;
+  float: left;
+}
+
+.week-person-content p {
+  text-align: justify;
+  width: 90%;
 }
 
 .book-ad article {
