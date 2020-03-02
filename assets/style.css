@@ -32,3 +32,30 @@ footer {
   background-color: blue;
   width: 75%;
 }
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40vw 40vw;
+}
+
+.articles article {
+  display: flex;
+  flex-direction: column;
+}
+
+.articles article:nth-child(1) {
+  background-color: aqua;
+}
+
+.articles article:nth-child(2) {
+  background-color: yellow;
+}
+
+.articles article:nth-child(3) {
+  background-color: red;
+}
+
+.articles article:nth-child(4) {
+  background-color: blue;
+}
