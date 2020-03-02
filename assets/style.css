@@ -64,6 +64,10 @@ footer {
   flex-direction: column;
   background-color: #C0C0C0;
   border: 10px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .posts article {
