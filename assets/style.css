@@ -1,0 +1,29 @@
+body {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+nav {
+  display: flex;
+  height: 10rem;
+  width: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+
+footer {
+  display: flex;
+}
+
+.logo {
+  background-color: gray;
+  width: 25%;
+}
+
+.menu {
+  background-color: blue;
+  width: 75%;
+}
