@@ -7,6 +7,7 @@
 body {
   display: grid;
   grid-template-rows: auto auto;
+  background: white;
 }
 
 nav {
@@ -25,13 +26,15 @@ footer {
 }
 
 .logo {
-  background-color: gray;
-  width: 25%;
+  background-color: #808080;
+  width: 15%;
+  margin: 10px 10px;
 }
 
 .menu {
-  background-color: blue;
-  width: 75%;
+  background-color: #808080;
+  width: 85%;
+  margin: 10px 10px;
 }
 
 .articles {
@@ -43,8 +46,56 @@ footer {
 .articles article {
   display: flex;
   flex-direction: column;
+  background-color: #C0C0C0;
+  border: 10px solid white;
 }
 
+.posts article {
+  background-color: #DCDCDC;
+}
+
+.posts article div {
+  background-color: #C0C0C0;
+  border: 0 !important;
+  margin: 10px 10px;
+}
+
+.posts-button {
+  background-color: #778899 !important;
+  height: 8rem;
+  width: 8rem;
+  float: left;
+}
+
+.CTA {
+  background-color: #DCDCDC;
+}
+
+.CTA-logo {
+  background-color: #808080;
+  width: 40%;
+  margin: 10px 10px;
+  height: 20%;
+  border: 0 !important;
+  margin-left: 30%;
+}
+
+.CTA-content {
+  background-color: #808080;
+  margin: 10px 10px;
+  height: 55%;
+  border: 0 !important;
+}
+
+.CTA-button {
+  background-color: #778899;
+  width: 40%;
+  height: 10%;
+  border: 0 !important;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+/*
 .articles article:nth-child(1) {
   background-color: aqua;
 }
@@ -60,6 +111,7 @@ footer {
 .articles article:nth-child(4) {
   background-color: blue;
 }
+*/
 
 .posts {
   display: grid;
@@ -70,8 +122,7 @@ footer {
 .posts article,
 .posts div
 {
-  border: 1px solid gray;
-  width: 100%;
+  border: 10px solid white;
 }
 
 .hero {
