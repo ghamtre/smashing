@@ -120,3 +120,24 @@ footer {
   grid-row: 2 / 3;
   background: red;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: red;
+  width: 100%;
+  height: 15rem;
+  align-items: center;
+}
+
+.topics {
+  background: yellow;
+  width: 50%;
+  height: 100%;
+}
+
+footer div {
+  background: green;
+  width: 100%;
+  height: 100%;
+}
