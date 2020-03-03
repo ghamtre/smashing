@@ -119,6 +119,7 @@ ul {
   margin: 10px 10px;
   height: 55%;
   border: 0 !important;
+  padding: 10%;
 }
 
 .CTA-button {
@@ -127,7 +128,6 @@ ul {
   height: 10%;
   border: 0 !important;
   margin-left: 30%;
-  margin-top: 10%;
 }
 
 .posts {
@@ -158,10 +158,6 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.hero > .CTA-content > .CTA-button {
-  margin: 10%;
 }
 
 .book-ad {
