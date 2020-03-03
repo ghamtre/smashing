@@ -11,6 +11,10 @@ body {
   font-family: "MijaW03-Regular";
 }
 
+h6 {
+  display: none;
+}
+
 nav {
   display: flex;
   height: 10rem;
