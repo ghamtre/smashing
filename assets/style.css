@@ -25,6 +25,10 @@ footer {
   display: flex;
 }
 
+ul {
+  list-style: none;
+}
+
 .logo {
   background-color: #808080;
   width: 15%;
@@ -299,13 +303,26 @@ footer {
 .curated {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50vh 100vh 120vh 200px;
+  grid-template-rows: 50vh 60vh 80vh 200px;
 }
+
+.curated article {
+  display: flex;
+  flex-direction: column;
+  background-color: #C0C0C0;
+  border: 10px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
 
 .curated .featured-cta {
   grid-column: 2 / 4;
   grid-row: 3 / 4;
-  background: red;
+  background-color: #DCDCDC;
 }
 
 .curated a {
