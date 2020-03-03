@@ -266,12 +266,36 @@ footer {
 }
 
 .featured-ad {
-  display: block;
-  background: blue;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  background: #696969;
+  color: white;
   width: 100%;
   grid-column: 1 / 4;
+  justify-content: space-between;
 }
 
+.featured-ad button {
+  border: 1px solid gray;
+  width: 20%;
+  height: 2rem;
+  color: darkslategray;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.featured-ad p {
+  width: 50%;
+}
+
+.featured-ad div {
+  width: 10rem;
+  height: 10rem;
+  background-color: #778899;
+  position: absolute;
+  right: 60px;
+}
 .curated {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
