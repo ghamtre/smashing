@@ -267,29 +267,36 @@ footer {
 
 .featured-ad {
   display: block;
-  float: left;
   background: blue;
   width: 100%;
-  height: 300px;
+  grid-column: 1 / 4;
 }
 
 .curated {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50vh 40vh 120vh 200px;
+  grid-template-rows: 50vh 100vh 120vh 200px;
 }
 
 .curated .featured-cta {
   grid-column: 2 / 4;
-  grid-row: 2 / 3;
+  grid-row: 3 / 4;
   background: red;
+}
+
+.curated a {
+  grid-column: 1 / 4;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 50px;
 }
 
 footer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 15rem;
+  height: 100vh;
   align-items: center;
 }
 
