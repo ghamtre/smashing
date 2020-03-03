@@ -192,6 +192,12 @@ footer {
   margin-top: 1rem;
 }
 
+.book-ad footer > a {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .book-ad .week-person {
   grid-column: 1 / 3;
 }
