@@ -8,6 +8,7 @@ body {
   display: grid;
   grid-template-rows: auto auto;
   background: white;
+  font-family: "MijaW03-Regular";
 }
 
 nav {
