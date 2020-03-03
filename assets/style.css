@@ -156,12 +156,10 @@ footer {
   grid-column: 1 / 4;
 }
 
-
-
 .book-ad {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50vh 40vh 30vh 30vh 30vh 200px;
+  grid-template-rows: 50vh 40vh 30vh 30vh 30vh 50px;
 }
 
 .book-ad header {
@@ -264,11 +262,13 @@ footer {
 
 .book-ad footer {
   grid-column: 1 / 3;
+  line-height: 50px;
 }
 
 .featured-ad {
-  display: flex;
-  background: red;
+  display: block;
+  float: left;
+  background: blue;
   width: 100%;
   height: 300px;
 }
@@ -276,10 +276,10 @@ footer {
 .curated {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 40vh 80vh 200px;
+  grid-template-rows: 50vh 40vh 120vh 200px;
 }
 
-.curated div {
+.curated .featured-cta {
   grid-column: 2 / 4;
   grid-row: 2 / 3;
   background: red;
@@ -288,7 +288,6 @@ footer {
 footer {
   display: flex;
   flex-direction: column;
-  background: red;
   width: 100%;
   height: 15rem;
   align-items: center;
