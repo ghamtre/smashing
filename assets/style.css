@@ -133,13 +133,7 @@ ul {
 .posts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 80vh 80vh 80vh 80vh 30px;
-}
-
-.posts a {
-  color: black;
-  text-align: center;
-  text-transform: uppercase;
+  grid-template-rows: 80vh 80vh 80vh 80vh 90px;
 }
 
 .posts article,
@@ -158,6 +152,18 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.hero > a {
+  display: block;
+  margin: 30px auto;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero .CTA-button {
+  margin-top: 0px
 }
 
 .book-ad {
