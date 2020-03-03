@@ -337,6 +337,22 @@ ul {
   line-height: 50px;
 }
 
+.featured-cta * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-cta > .CTA-content > button {
+  border: 1px solid gray;
+  width: 50%;
+  height: 2rem;
+  color: darkslategray;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
 footer {
   display: flex;
   padding: 40px 15%;
